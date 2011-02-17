@@ -1,9 +1,7 @@
-= Christian Neukirchen's Ruby Style Guide
+= Roma Sokolov's Ruby Style Guide derived from one by Christian Neukirchen
 
-You may not like all rules presented here, but they work very well for
-me and have helped producing high quality code.  Everyone is free to
-code however they want, write and follow their own style guides, but
-when you contribute to my code, please follow these rules:
+You may not like all rules presented here, feel free to modify them or
+make suggestions, but when you contribute to my code, please follow these rules:
 
 
 == Formatting:
