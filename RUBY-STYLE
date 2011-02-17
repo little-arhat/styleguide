@@ -6,7 +6,7 @@ make suggestions, but when you contribute to my code, please follow these rules:
 
 == Formatting:
 
-* Use ASCII (or UTF-8, if you have to).
+* Use UTF-8 encoding for sources.
 
 * Use 2 space indent, no tabs.
 
@@ -80,6 +80,8 @@ make suggestions, but when you contribute to my code, please follow these rules:
 
 == Naming:
 
+* Use only ASCII for class, methods and variable names.
+
 * Use snake_case for methods.
 
 * Use CamelCase for classes and modules. (Keep acronyms like HTTP,
@@ -121,6 +123,8 @@ make suggestions, but when you contribute to my code, please follow these rules:
 
 
 == Comments:
+
+* Use ASCII and English in comments.
 
 * Comments longer than a word are capitalized and use punctuation.
 
