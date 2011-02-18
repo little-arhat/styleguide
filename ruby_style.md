@@ -32,7 +32,7 @@ make suggestions, but when you contribute to my code, please follow these rules:
 
 * Keep lines fewer than 80 characters.
 
-* Avoid trailing whitespace.
+* Strip trailing whitespace.
 
 
 ## Syntax:
