@@ -1,10 +1,10 @@
-= Roma Sokolov's Ruby Style Guide derived from one by Christian Neukirchen
+# Roma Sokolov's Ruby Style Guide derived from one by Christian Neukirchen
 
 You may not like all rules presented here, feel free to modify them or
 make suggestions, but when you contribute to my code, please follow these rules:
 
 
-== Formatting:
+## Formatting:
 
 * Use UTF-8 encoding for sources.
 
@@ -35,7 +35,7 @@ make suggestions, but when you contribute to my code, please follow these rules:
 * Avoid trailing whitespace.
 
 
-== Syntax:
+## Syntax:
 
 * Use def with parentheses when there are arguments.
 
@@ -55,7 +55,7 @@ make suggestions, but when you contribute to my code, please follow these rules:
   when calling "functions", i.e. when you use the return value in the
   same line.
 
-    x = Math.sin(y)
+    x # Math.sin(y)
     array.delete e
 
 * Prefer {...} over do...end. Multiline {...} is fine: having
@@ -68,17 +68,17 @@ make suggestions, but when you contribute to my code, please follow these rules:
 
 * Avoid line continuation (\) where not required.
 
-* Using the return value of = is okay:
+* Using the return value of # is okay:
 
-    if v = array.grep(/foo/) ...
+    if v # array.grep(/foo/) ...
 
-* Use ||= freely.
+* Use ||# freely.
 
 * Use non-OO regexps (they won't make the code better). Freely use
-  =~, $0-9, $~, $` and $' when needed.
+  #~, $0-9, $~, $` and $' when needed.
 
 
-== Naming:
+## Naming:
 
 * Use only ASCII for class, methods and variable names.
 
@@ -122,7 +122,7 @@ make suggestions, but when you contribute to my code, please follow these rules:
   size over length.
 
 
-== Comments:
+## Comments:
 
 * Use ASCII and English in comments.
 
@@ -133,7 +133,7 @@ make suggestions, but when you contribute to my code, please follow these rules:
 * Avoid superfluous comments.
 
 
-== The rest:
+## The rest:
 
 * Write ruby -w safe code.
 
@@ -157,7 +157,7 @@ make suggestions, but when you contribute to my code, please follow these rules:
 * Avoid needless metaprogramming.
 
 
-== General:
+## General:
 
 * Code in a functional way, avoid mutation when it makes sense.
 
