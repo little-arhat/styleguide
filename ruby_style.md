@@ -59,11 +59,11 @@ make suggestions, but when you contribute to my code, please follow these rules:
         array.delete e
 
 
-* Prefer `{...}` over `do...end`. Multiline `{...}` is fine: having
-  different statement endings (`}` for blocks, `end` for `if`/`while`/...)
-  makes it easier to see what ends where. But use `do...end` for
-  "control flow" and "method definitions" (e.g. in Rakefiles and
-  certain DSLs.)  Avoid `do...end` when chaining.
+* Use `{...}` for one-line blocks and  `do...end` for multiline, but
+  avoid `do...end` when chaining.
+
+* Use `do...end` for "control flow" and "method definitions"
+  (e.g. in Rakefiles and certain DSLs.)
 
 * Avoid `return` where not required.
 
