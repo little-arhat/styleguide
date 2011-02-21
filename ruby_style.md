@@ -72,6 +72,9 @@ make suggestions, but when you contribute to my code, please follow these rules:
 * Use non-OO regexps (they won't make the code better). Freely use
   \#~, $0-9, $~, $` and $' when needed.
 
+* Use parentheses when unpacking values from expression
+
+        (a, b, c) = d
 
 ## Naming:
 
