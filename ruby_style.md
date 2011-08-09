@@ -111,13 +111,13 @@ make suggestions, but when you contribute to my code, please follow these rules:
 
 * Use `_` or names prefixed with `_` for unused variables.
 
-* When using `inject` with short blocks, name the arguments `|a, e|`
+* When using `reduce` with short blocks, name the arguments `|a, e|`
   (mnemonic: accumulator, element)
 
 * When defining binary operators, name the argument "other".
 
 * Prefer `map` over `collect`, `find` over `detect`, `find_all`
-  over `select`, `size` over `length`.
+  over `select`, `length` over `size`.
 
 
 ## Comments:
